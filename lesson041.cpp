@@ -3,7 +3,7 @@
 using namespace std;
 
 
-
+/*
 int main() {
 	int value1{ 10 };
 	int value2{ -300 };
@@ -65,9 +65,21 @@ int main() {
 	cout << "unsigned int: " << unsigned_int << ", size: " << sizeof(unsigned int) << " bytes" << endl;
 	cout << "--------------------------\n" << endl;
 
+	cout << "Long variable: " << long_var << ", size: " << sizeof(long) << " bytes" << endl;
+	cout << "Long int: " << long_int << ", size: " << sizeof(long int) << " bytes" << endl;
+	cout << "Signed long: " << signed_long << ", size: " << sizeof(signed long) << " bytes" << endl;
+	cout << "Signed long int: " << signed_long_int << ", size: " << sizeof(signed long int) << " bytes" << endl;
+	cout << "Unsigned long int: " << unsigned_long_int << ", size: " << sizeof(unsigned long int) << " bytes" << endl;
+	cout << "--------------------------\n" << endl;
 
+	cout << "Long long: " << long_long << ", size: " << sizeof(long long) << " bytes" << endl;
+	cout << "Long long int: " << long_long_int << ", size: " << sizeof(long long int) << " bytes" << endl;
+	cout << "Signed long long: " << signed_long_long << ", size: " << sizeof(signed long long) << " bytes" << endl;
+	cout << "Signed long long int: " << signed_long_long_int << ", size: " << sizeof(signed long long int) << " bytes" << endl;
+	cout << "Unsigned long long int: " << unsigned_long_long_int << ", size: " << sizeof(unsigned long long int) << " bytes" << endl;
+	cout << "--------------------------\n" << endl;
 
 	return 0;
 }
-
+*/
 
