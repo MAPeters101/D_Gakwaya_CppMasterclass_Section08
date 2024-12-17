@@ -52,7 +52,18 @@ int main() {
 	signed long long int signed_long_long_int{ 1234 };
 	unsigned long long int unsigned_long_long_int{ 1234 };
 
+	cout << "Short variable: " << short_var << ", size: " << sizeof(short) << " bytes" << endl;
+	cout << "Short int: " << short_int << ", size: " << sizeof(short int) << " bytes" << endl;
+	cout << "Signed short: " << signed_short << ", size: " << sizeof(signed short) << " bytes" << endl;
+	cout << "Signed short int: " << signed_short_int << ", size: " << sizeof(signed short int) << " bytes" << endl;
+	cout << "Unsigned short int: " << unsigned_short_int << ", size: " << sizeof(unsigned short int) << " bytes" << endl;
+	cout << "--------------------------\n" << endl;
 
+	cout << "Int variable: " << int_var << ", size: " << sizeof(int) << " bytes" << endl;
+	cout << "Signed variable: " << signed_var << ", size: " << sizeof(signed) << " bytes" << endl;
+	cout << "Signed int: " << signed_int << ", size: " << sizeof(signed int) << " bytes" << endl;
+	cout << "unsigned int: " << unsigned_int << ", size: " << sizeof(unsigned int) << " bytes" << endl;
+	cout << "--------------------------\n" << endl;
 
 
 
