@@ -4,7 +4,7 @@
 using namespace std;
 
 
-
+/*
 int main() {
 	float number1{ 1.12345678901234567890f };
 	double number2{ 1.12345678901234567890 };
@@ -49,16 +49,35 @@ int main() {
 	cout << "number9: " << number9 << endl;
 	cout << "----------------\n\n" << endl;
 
+	cout << "Infinity and NaN" << endl;
+	double number10{ 5.6 };
+	double number11{};
+	double number12{};
 
+	double result{ number10 / number11 };
 
+	cout << number10 << "/" << number11 << " yields " << result << endl;
+	cout << result << " + " << number10 << " yields " << result + number10 << endl;
 
+	result = number11 / number12;
+	cout << number11 << "/" << number12 << " = " << result << endl;
 
+	cout << "\n-Infinity and NaN" << endl;
+	double number13{ -5.6 };
+	double number14{};
+	double number15{};
 
+	result = number13 / number14;
 
+	cout << number13 << "/" << number14 << " yields " << result << endl;
+	cout << result << " + " << number13 << " yields " << result + number13 << endl;
+
+	result = -number14 / number15;
+	cout << number14 << "/" << number15 << " = " << result << endl;
 
 	return 0;
 }
-
+*/
 
 
 
