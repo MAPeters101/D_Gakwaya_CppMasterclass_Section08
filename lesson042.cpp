@@ -35,6 +35,25 @@ int main() {
 	cout << "number4b2: " << number4b2 << endl;
 	double number4c2( 1924000023.0 );
 	cout << "number4c2: " << number4c2 << endl;
+	cout << "----------------\n\n" << endl;
+
+	double number5{ 192400023 };
+	cout << "number5: " << number5 << endl;
+	double number6{ 1.92400023e8 };
+	cout << "number6: " << number6 << endl;
+	double number7{ 1.924e8 };
+	cout << "number7: " << number7 << endl;
+	double number8{ 0.00000000003498 };
+	cout << "number8: " << number8 << endl;
+	double number9{ 3.498e-11 };
+	cout << "number9: " << number9 << endl;
+	cout << "----------------\n\n" << endl;
+
+
+
+
+
+
 
 
 	return 0;
